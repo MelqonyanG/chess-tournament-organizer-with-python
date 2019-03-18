@@ -1,3 +1,75 @@
+# chess-tournament-organizer-with-python
+
+chess-tournament-organizer-with-python is a chess-tournament organizer app.
+## Features
+
+  - In login page, you can login as admin or as user
+  - **As Admin**
+  --- Login and password of first admin is written in server_config.json file. This admin can add new admins
+  --- **Admin can**:
+            1. Look at all tournaments', rounds', games', users' lists
+            2. Create new tournament, Edit tournaments, Delete tournaments
+            3. Create new round, Edit rounds, Delete rounds
+            4. Create new user (including new admins: set userType -> admin), Edit users, Delete users
+ --- **User can**
+            1. Look at all tournaments' list, Registrate on unregistere in the tournament
+            2. Look at tournament's standings, games
+            3. If user is registered in the tournament, he or she should star game in certain time
+            4. After round, admin will create new round until tournament's end.
+            5. If user don't start game in time, he or she will lost.
+
+ ### Tech
+
+real-time-chess uses a number of open source projects to work properly:
+**client side**
+* React js
+* Bootstrap
+* socket.io-client
+* chessboardjs
+* chess.js
+
+**server side**
+* Python3
+* Flask
+* eventlet
+* psycopg2
+* PostgreSQL
+
+### Installation
+
+real-time-chess client side requires [Node.js](https://nodejs.org/) v4+ and [npm](https://www.npmjs.com/). Server side requires [PostgreSQL](https://www.mongodb.com/) database.
+
+Install the dependencies and start the server.
+1. First of all you need start mongodb server
+```sh
+$ sudo service mongodb start
+```
+2.  Then you need to start real-time-chess server
+```sh
+$ cd real-time-chess/
+$ pip install -r requirements.txt
+$ python server.py
+```
+
+Install the dependencies and start the client.
+```sh
+$ cd real-time-chess/client
+$ npm install
+$ npm start
+```
+Verify the deployment by navigating to your server address in your preferred browser.
+
+```sh
+127.0.0.1:3000
+```
+or
+```sh
+localhost:3000
+```
+**screenshots**
+![screenshot](/screenshot_game.png)
+![screenshot](/screenshot_games_list.png)
+
 # Tournament
 
 Tournaments Organizer

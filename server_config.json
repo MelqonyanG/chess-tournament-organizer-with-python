@@ -1,0 +1,17 @@
+{
+  "postgreSQL": {
+    "host": "127.0.0.1",
+    "port": "5432",
+    "user": "postgres",
+    "password": "root2018",
+    "database": "vegaTournamentsDB"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8000
+  },
+  "adminData":{
+    "login": "admin@gmail.com",
+    "password": "y"
+  }
+}

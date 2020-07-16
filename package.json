@@ -10,7 +10,7 @@
     "deep-extend": "^0.6.0",
     "extend": "^3.0.2",
     "jquery": "^3.3.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "macaddress": "^0.2.9",
     "merge": "^1.2.1",
     "randomatic": "^3.1.1",

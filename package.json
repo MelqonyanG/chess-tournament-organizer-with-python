@@ -17,7 +17,7 @@
     "react": "^16.2.0",
     "react-dev-utils": "^8.0.0",
     "react-dom": "^16.8.4",
-    "react-scripts": "1.1.1",
+    "react-scripts": "5.0.1",
     "socket.io-client": "^2.0.4",
     "sshpk": "^1.13.2",
     "url-parse": "^1.4.4",
